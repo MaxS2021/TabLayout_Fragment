@@ -9,15 +9,22 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
+        style="?attr/tabSecondaryStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/teal_700"
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
+
+
         app:layout_constraintStart_toStartOf="parent"
+
+
         app:layout_constraintTop_toTopOf="parent"
-        app:tabMode="fixed"
-        style="@style/MyCustomTabLayout"
-        >
+
+        app:tabIconTint="@drawable/tab_menu_selector"
+        app:tabMode="fixed">
 
 
     </com.google.android.material.tabs.TabLayout>
