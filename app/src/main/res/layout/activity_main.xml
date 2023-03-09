@@ -16,16 +16,10 @@
         android:background="@color/teal_700"
         android:contentDescription="@string/app_name"
         app:layout_constraintEnd_toEndOf="parent"
-
-
         app:layout_constraintStart_toStartOf="parent"
-
-
         app:layout_constraintTop_toTopOf="parent"
-
         app:tabIconTint="@drawable/tab_menu_selector"
         app:tabMode="fixed">
-
 
     </com.google.android.material.tabs.TabLayout>
 

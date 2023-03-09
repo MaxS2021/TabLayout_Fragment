@@ -14,7 +14,10 @@ class Fragment1 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_1, container, false)
+        val frag1 = inflater.inflate(R.layout.fragment_1, container, false)
+
+
+        return frag1.rootView
     }
 
     companion object {
